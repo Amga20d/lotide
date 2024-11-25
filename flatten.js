@@ -41,3 +41,5 @@ assertArraysEqual(flatten([1, 2, [3, 4], 5, [6]]), [1, 2, 3, 4, 5, 6]); // Shoul
 assertArraysEqual(flatten([['a', 'b', 'c', 'd'], ['e', 'f']]), ['a', 'b', 'c', 'd', 'e', 'f']); // Should PASS
 
 assertArraysEqual(flatten([1, 2, [3, 4], 5, [6]]), [1, 2, 3, 4, 5, [6]]); // Should FAIL
+
+module.exports = flatten;

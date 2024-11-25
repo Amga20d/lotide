@@ -35,4 +35,5 @@ assertEqual(result1["a"], 2);   //Should Pass. Test if capital or small should b
 assertEqual(result1["b"], 1);   // Should Pass.
 assertEqual(result1[" "], undefined); //Should Pass. Test if spaces has not been included in the count.
 
+module.exports = countLetters;
 

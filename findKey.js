@@ -37,3 +37,5 @@ const result3 = findKey(rating, (x) => x.stars === 4);
 assertEqual(result1, "noma"); //Should PASS
 assertEqual(result2, "Blue Hill"); //Should PASS
 assertEqual(result3, undefined); //Should PASS
+
+module.exports = findKey;
