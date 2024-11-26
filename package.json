@@ -1,8 +1,8 @@
 {
-  "name": "lotide",
+  "name": "@amga20d/lotide",
   "version": "1.0.0",
-  "description": "",
-  "main": "assertArraysEqual.js",
+  "description": "A mini lodash-inspired utility library providing common functions for array and object manipulation.",
+  "main": "index.js",
   "directories": {
     "test": "test"
   },
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/Amga20d/lotide.git"
   },
-  "author": "",
+  "author": "amga20d",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Amga20d/lotide/issues"
