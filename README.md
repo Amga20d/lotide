@@ -26,7 +26,7 @@ This project was created and published by me as part of my learnings at Lighthou
 
 The following functions are currently implemented:
 
-head(array): Returns the first element of an array.
+#head(array): Returns the first element of an array.
 
 tail(array): Returns everything except the first element of an array.
 
